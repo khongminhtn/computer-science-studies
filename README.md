@@ -5,15 +5,15 @@ This repository is  where I keep track of all my studies on subjects of Computer
 OSSU: https://github.com/ossu/computer-science
 
 #### Primary Books:
-Computer Systems: A Programmer's Perspective
-Designing Data-Intensive Applications
+- Computer Systems: A Programmer's Perspective
+- Designing Data-Intensive Applications
 
 #### Primary Resources:
-http://www.infocobuild.com/education/audio-video-courses/computer-science/computer-science.html
-https://teachyourselfcs.com/
-https://www.geeksforgeeks.org/
-https://www.coursera.org/
-https://www.edx.org/
+- http://www.infocobuild.com/education/audio-video-courses/computer-science/computer-science.html
+- https://teachyourselfcs.com/
+- https://www.geeksforgeeks.org/
+- https://www.coursera.org/
+- https://www.edx.org/
 
 ---
 # Courses:
