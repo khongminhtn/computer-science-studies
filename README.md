@@ -1,8 +1,12 @@
 # computer-science-studies
 This repository is  where I keep track of all my studies on subjects of Computer Science that are relevant to software engineering. My primary focus is to become a software engineer so studying only the relevant subject areas and implement them as I learn, is the main reason why I have decided on taking the self learning path, rather than a Bachelor degree. I am able to have control over what I study and at a pace where I am able to put theory acquistion into practical production. It will be a life long study, not only for improvement but also for revision.
 
-Guideline:
+Primary Guideline:
 https://teachyourselfcs.com/
+
+Primary Books:
+Computer Systems: A Programmer's Perspective
+Designing Data-Intensive Applications
 
 ---
 ### Data Structures Source:
