@@ -18,11 +18,11 @@ https://www.edx.org/
 ---
 # Courses:
 #### Core CS: Programming
-UBCx - HtC1x How to Code: Simple Data (edx)
-UBCx - HtC2x How to Code: Complex Data (edx)
-UoW - Programming Languages, Part A (Coursera)
-UoW - Programming Languages, Part B (Coursera)
-UoW - Programming Languages, Part C (Coursera)
+- UBCx - HtC1x How to Code: Simple Data (edx)
+- UBCx - HtC2x How to Code: Complex Data (edx)
+- UoW - Programming Languages, Part A (Coursera)
+- UoW - Programming Languages, Part B (Coursera)
+- UoW - Programming Languages, Part C (Coursera)
 
 
 #### Core CS: Maths Electives
