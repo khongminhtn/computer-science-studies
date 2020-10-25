@@ -24,6 +24,7 @@ UoW - Programming Languages, Part A (Coursera)
 UoW - Programming Languages, Part B (Coursera)
 UoW - Programming Languages, Part C (Coursera)
 
+
 #### Core CS: Maths Electives
 MiTx's - 19.01x Single Variable Calculus (edx)
 MiTx's - Linear Algebra 
