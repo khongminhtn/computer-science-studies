@@ -1,5 +1,9 @@
 # Computer Science Studies
-This repository is  where I keep track of all my studies on subjects of Computer Science that are relevant to software engineering. My primary focus is to become a software engineer so studying only the relevant subject areas and implement them as I learn, is the main reason why I have decided on taking the self learning path, rather than a Bachelor degree. I am able to have control over what I study and at a pace where I am able to put theory acquistion into practical production. It will be a life long study, not only for improvement but also for revision.
+This repository is  where I keep track of all my studies on subjects of Computer Science that are relevant to software engineering. My primary focus is to become a software engineer so studying only the relevant subject areas and implement them as I learn. Financial difficuly as well as learning while practicing are the main reasons why I have decided on taking the self learning path, rather than a Bachelor degree. I will be able to have control over what I study and at a pace where I am able to put theory acquistion into practical production. It will be a life long study, not only for improvement but also for revision.
+
+Below, you will find sources and guidelines that I use to progress in this journey. I have decided to follow primarily with the OSSU Computer Science guideline as they have put in a tremendous effort to provide high quality courses, along with its vast community contribution and support. 
+
+Evidence of my studies can be found in this repository to demonstrate the completion of the courses that OSSU have set out. I will be marking off each completed courses and provided the date finished. If possible, I will also provide certification details.
 
 #### Primary Guideline:
 OSSU: https://github.com/ossu/computer-science
