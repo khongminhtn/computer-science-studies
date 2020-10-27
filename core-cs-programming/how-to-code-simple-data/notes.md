@@ -29,7 +29,7 @@
 (sqrt 16 => 4  
 (Operator (Expression)) => Value  
   
-#### Excercise 1:
+**Excercise 1:**
 ![Excercise 1](https://github.com/khongminhtn/computer-science-studies/blob/main/core-cs-programming/how-to-code-simple-data/Excercise1.png)  
 Solution = 5  
   
