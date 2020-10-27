@@ -21,7 +21,7 @@
 - to use stepper to automatically step through the evaluation of an expression
 - Use Dr Racket help desk
 
-### _Expressions: 
+### *Expressions:* 
 ( + 3 4) => 7  
 (+ 3 (* 2 3) => 9  
 (/12 (* 2 3)) => 2  
@@ -44,4 +44,4 @@ BSL Evaluation
 2. Then apply primitive(operator) to the values(single number).
 Intuitively evaluates from left to right, inside to outside  
  
-### _Strings & Images:
+### *Strings & Images:*
