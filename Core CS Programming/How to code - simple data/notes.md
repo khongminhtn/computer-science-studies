@@ -30,4 +30,4 @@ Goal
 (Operator (Expression)) => Value
 
 #### Excercise 1:
-![Excercise 1](/Excercise1.png)
+![Excercise 1](https://github.com/khongminhtn/computer-science-studies/blob/main/Core%20CS%20Programming/How%20to%20code%20-%20simple%20data/Excercise1.png)
