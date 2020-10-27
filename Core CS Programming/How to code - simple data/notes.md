@@ -30,4 +30,4 @@ Goal
 (Operator (Expression)) => Value
 
 #### Excercise 1:
-![Excercise1] (./Excercise1.png)
+![Excercise1] (/How to code - simple data/Excercise1.png)
