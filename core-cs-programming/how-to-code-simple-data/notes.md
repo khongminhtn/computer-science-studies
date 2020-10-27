@@ -14,14 +14,14 @@
 
 
 ### Part 1: Beginning Student Language (BSL)
-#### Goal
+Goal
 - to write express that operates primitive data
 - to write constant and function definitions
 - to write step by step evaluation of expressions
 - to use stepper to automatically step through the evaluation of an expression
 - Use Dr Racket help desk
 
-#### Expressions: 
+##### Expressions: 
 ( + 3 4) => 7 
 (+ 3 (* 2 3) => 9
 (/12 (* 2 3)) => 2
