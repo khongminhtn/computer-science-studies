@@ -22,8 +22,8 @@ OSSU: https://github.com/ossu/computer-science
 ---
 # Courses:
 ### Core CS: Programming
-- [ ] UBCx - HtC1x How to Code: Simple Data (edx)
-- [ ] UBCx - HtC2x How to Code: Complex Data (edx)
+- [ ] How to Code: Simple Data | University of British Columbia |  Professor Gregor Kiczales | Platform: eDx.
+- [ ] How to Code: Complex Data | University of British Columbia | Professor Gregor Kiczales | Platform: eDx.
 - [ ] UoW - Programming Languages, Part A (Coursera)
 - [ ] UoW - Programming Languages, Part B (Coursera)
 - [ ] UoW - Programming Languages, Part C (Coursera)

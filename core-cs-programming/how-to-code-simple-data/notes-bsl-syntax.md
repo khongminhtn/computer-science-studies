@@ -1,19 +1,4 @@
-# Systematic Program Design
-> ‘What do you want to program ?”
-> “How do we break the problem ?”
-
-## Design Method:
-- Used to with any programming language
-- Manages complexity:
-  - Solve 1 problem at a time
-    - Easy to think
-    - Easy to read
-    - Easy to modify
-
-#### Design Method = From poorly formed -> Well-structured solution
-
-
-## Part 1: Beginning Student Language (BSL) Syntax
+# Beginning Student Language (BSL) Syntax
 #### Goal
 - to write express that operates primitive data
 - to write constant and function definitions
