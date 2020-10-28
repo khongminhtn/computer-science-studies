@@ -30,4 +30,7 @@ What is HtDF ?
   - Breaks problems down to smaller steps
 - Makes easy problems a little harder to design
  
+![HtDF Recipe](https://github.com/khongminhtn/computer-science-studies/blob/main/core-cs-programming/how-to-code-simple-data/HtDF.png)  
 
+**Example problem**
+![HtDF Problem](https://github.com/khongminhtn/computer-science-studies/blob/main/core-cs-programming/how-to-code-simple-data/HtDF-problem.png)  
