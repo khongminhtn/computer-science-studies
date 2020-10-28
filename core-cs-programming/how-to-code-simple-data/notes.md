@@ -13,7 +13,7 @@
 #### Design Method = From poorly formed -> Well-structured solution
 
 
-## Part 1: Beginning Student Language (BSL)
+## Part 1: Beginning Student Language (BSL) Syntax
 #### Goal
 - to write express that operates primitive data
 - to write constant and function definitions
@@ -22,7 +22,7 @@
 - Use Dr Racket help desk
 
 ### *Expressions:* 
-( + 3 4) => 7  
+(+ 3 4) => 7  
 (+ 3 (* 2 3) => 9  
 (/12 (* 2 3)) => 2  
 (sqr 3) => 9  
@@ -44,4 +44,23 @@ BSL Evaluation
 2. Then apply primitive(operator) to the values(single number).
 Intuitively evaluates from left to right, inside to outside  
  
-### *Strings & Images:*
+### *Strings & Images*
+ 
+Strings are represented in double quotes "" with primitive operations:
+- (string-length "string")
+- (substring "string") *zero based indexing*
+- (string-append "string" "string")
+ 
+Vector images expressed in the following:   
+(circle 10 "solid" "red") such that:  
+() is primitive call  
+circle is operation  
+values: 10, "solid", "red" - are values for operation to be applied  
+ 
+### *Constant definition*
+(define WIDTH 400) where (define name expression)  
+WIDTH is now evaluates to 400  
+such that (+ WIDTH + 2) => 402  
+with *constants* it can only be defined once.  
+> The use of constant is incredibly important as it provides code readiblity and ease of change.
+ 
