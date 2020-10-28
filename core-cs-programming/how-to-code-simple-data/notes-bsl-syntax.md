@@ -65,9 +65,45 @@ with *constants* it can only be defined once.
 > The use of constant is incredibly important as it provides code readiblity and ease of change.
  
 ### *Functions*
-Function definitions helps with DRY principle.  
+Function definitions help with DRY principle.  
 Syntax:
 ```
 (define (bulb c)  
     (circle 40 "solid" c))
+
+where
+(define (<function name> <parameter name>)
+    (<expression>))
+
+function call
+(<function name><expression>)
+
+with similarities
+(<operator/primitive> <operands>)
 ```
+Codes become clear and concise when function is invoked.  
+Primitives evaluates as follows:
+1. Reduce operands to single value
+2. Apply primitive to value
+ 
+Function evaluates as follows:
+1. Reduce operands to single value
+2. Replace expression of the function with the parameters that is now a value of a reduced operands
+ 
+### *Booleans and If expressions*
+Uses usual operators > < = true false.  
+If expressions:
+```
+(if <expression>  question to evaluate
+    <expression>  true answer
+    <expression>) false answer
+
+(and (<expression>, <expression>, ...) all has to be true, else false.
+     <expression>
+     <expression>)
+```
+IF expression evaluation:
+1. if question expression is not a value, evaluate to get value and replace with value.
+2. if the question evaluate to true, replace entire if expression with true answer expression.
+3. if the question is false, replace entire if expression with false expression.
+4. if question evaluates to neither true or false then produce error.
