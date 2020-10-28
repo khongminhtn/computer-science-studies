@@ -67,5 +67,5 @@ with *constants* it can only be defined once.
 ### *Functions*
 Function definitions helps with DRY principle.  
 Syntax:
-(define (bulb c)
+(define (bulb c)  
     (circle 40 "solid" c))
