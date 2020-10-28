@@ -30,7 +30,12 @@ What is HtDF ?
   - Breaks problems down to smaller steps
 - Makes easy problems a little harder to design
  
-![HtDF Recipe](https://github.com/khongminhtn/computer-science-studies/blob/main/core-cs-programming/how-to-code-simple-data/HtDF.png)  
-
-**Example problem**
-![HtDF Problem](https://github.com/khongminhtn/computer-science-studies/blob/main/core-cs-programming/how-to-code-simple-data/HtDF-problem.png)  
+HtDF Recipe:
+1. Signature, purpose and stub.
+2. Define examples, wrap each in check-expect.
+3. Template and inventory.
+4. Code the function body.
+5. Test and debug until corrent.
+ 
+**Example problem**  
+![HtDF Problem](https://github.com/khongminhtn/computer-science-studies/blob/main/core-cs-programming/how-to-code-simple-data//images/HtDF-problem.png)  

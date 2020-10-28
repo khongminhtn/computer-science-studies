@@ -15,7 +15,7 @@
 (Operator (Expression)) => Value  
   
 #### Excercise 1:
-![Excercise 1](https://github.com/khongminhtn/computer-science-studies/blob/main/core-cs-programming/how-to-code-simple-data/Excercise1.png)  
+![Excercise 1](https://github.com/khongminhtn/computer-science-studies/blob/main/core-cs-programming/how-to-code-simple-data/images/Excercise1.png)  
 Solution = 5  
   
 However, when (sqrt 2) => #i1.4142135623730951. The ouput of the square root 2 is irrational number. (sqrt 2) takes infinite space to write number down, but the memory of a computer is finite so it uses symbols such as #i to indicate infinity and that it is a close estimation of actual output.
