@@ -64,3 +64,8 @@ such that (+ WIDTH + 2) => 402
 with *constants* it can only be defined once.  
 > The use of constant is incredibly important as it provides code readiblity and ease of change.
  
+### *Functions*
+Function definitions helps with DRY principle.  
+Syntax:
+(define (bulb c)
+    (circle 40 "solid" c))
