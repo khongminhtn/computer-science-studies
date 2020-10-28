@@ -41,5 +41,23 @@ HtDF recipe makes simple problems harder to solve, but makes complex problems ea
 ![HtDF Problem](https://github.com/khongminhtn/computer-science-studies/blob/main/core-cs-programming/how-to-code-simple-data//images/HtDF-problem.png)  
  
 Solution:
-1. Stub: consumes a number and produce a number.
-    - Number -> Number.
+1. Step 1: 
+    - Signature: consumes a number and produce a number.
+        - Number -> Number.
+    - Purpose: produce 2 times the given number
+    - Stub: (define (double n) 0)
+2. Step 2:
+    - (check-expect (double 3) 6)
+    - Checking an example of a function.
+    - Call function with 3, expect result 6.
+3. Step 3:
+```
+(define (double n)       | -> template
+    (... n))             | -> n is what will be worked with
+```
+4. Step 4:
+```
+(define (double n)
+    (* 2 n))             | -> code body       
+```
+Using all the information above as guidance to definet he code body.
