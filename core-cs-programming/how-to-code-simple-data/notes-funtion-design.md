@@ -4,6 +4,7 @@
 
 ## Design Method:
 - Used to with any programming language.
+- Make problem specific.
 - Manages complexity:
   - Solve 1 problem at a time.
     - Easy to think.
@@ -29,6 +30,7 @@ HtDF recipe makes simple problems harder to solve, but makes complex problems ea
 - Makes hard problems easier to solve
   - Break problems down to smaller steps
 - Makes easy problems a little harder to design
+- Not intended for waterfall process (step by step/ procedural programming)
  
 **HtDF Recipe:**
 1. Signature, purpose and stub.
@@ -42,7 +44,7 @@ Each step helps/guides the resolution of step that precedes it.
 **Example problem and solution**  
 ![HtDF Problem](https://github.com/khongminhtn/computer-science-studies/blob/main/core-cs-programming/how-to-code-simple-data//images/HtDF-problem.png)  
  
-Solution:
+**Solution:**
 Step 1: 
 - Signature: what data does it consume and what data does it produce.
   - Number, String, Boolean ... => Boolean, String, Number...
@@ -53,6 +55,7 @@ Step 1:
 Step 2:
 - (check-expect (name expected-parameters) expected-results)
 - examples should be enough to demonstrate the possible results and parameters
+- look out for corner cases
  
 Step 3:
 - Outlines the function.
@@ -71,10 +74,10 @@ Using all the information above as guidance to definet he code body.
  
 Step 5:  
 - Run and check for any bugs.  
- 
+
+**Question:**  
 ![HtDF Problem](https://github.com/khongminhtn/computer-science-studies/blob/main/core-cs-programming/how-to-code-simple-data//images/HtDF-pratice.png)  
  
-Design:
 - Signature: string => string
 - Purpose: pluralize a word
 - Stub: (define (pluralize string) string)
@@ -89,6 +92,6 @@ Design:
 - Body:
 ```
 (define (pluralize string)
-  (append string s))
+  (string-append string s))
 ```
 - Debug
