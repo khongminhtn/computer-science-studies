@@ -40,7 +40,9 @@ HtDF recipe makes simple problems harder to solve, but makes complex problems ea
 5. Test and debug until corrent.
  
 Each step helps/guides the resolution of step that precedes it.
+ 
 
+ 
 **Example problem and solution**  
 ![HtDF Problem](https://github.com/khongminhtn/computer-science-studies/blob/main/core-cs-programming/how-to-code-simple-data//images/HtDF-problem.png)  
  
@@ -74,6 +76,8 @@ Using all the information above as guidance to definet he code body.
  
 Step 5:  
 - Run and check for any bugs.  
+ 
+ 
 
 **Question:**  
 ![HtDF Problem](https://github.com/khongminhtn/computer-science-studies/blob/main/core-cs-programming/how-to-code-simple-data//images/HtDF-pratice.png)  
