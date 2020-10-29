@@ -37,28 +37,32 @@ HtDF recipe makes simple problems harder to solve, but makes complex problems ea
 4. Code the function body.
 5. Test and debug until corrent.
  
+Each step helps/guides the resolution of step that precedes it.
+
 **Example problem and solution**  
 ![HtDF Problem](https://github.com/khongminhtn/computer-science-studies/blob/main/core-cs-programming/how-to-code-simple-data//images/HtDF-problem.png)  
  
 Solution:
 Step 1: 
-- Signature: consumes a number and produce a number.
-    - Number -> Number.
-- Purpose: produce 2 times the given number
-- Stub: (define (double n) 0)
+- Signature: what data does it consume and what data does it produce.
+  - Number, String, Boolean ... => Boolean, String, Number...
+- Purpose: 1 line description of what it produces given the consumption
+- Stub: a correct definition of a function with the correct name and parameters and produces with a dummy result of correct type.
+  - (define(name parameter1, parameter2,...) result)
  
 Step 2:
-- (check-expect (double 3) 6)
-- Checking an example of a function.
-- Call function with 3, expect result 6.
+- (check-expect (name expected-parameters) expected-results)
+- examples should be enough to demonstrate the possible results and parameters
  
 Step 3:
+- Outlines the function.
 ```
 (define (double n)       | -> template
     (... n))             | -> n is what will be worked with
 ```
  
 Step 4:
+- The actual body of code of the function.
 ```
 (define (double n)
     (* 2 n))             | -> code body       
@@ -66,4 +70,25 @@ Step 4:
 Using all the information above as guidance to definet he code body.  
  
 Step 5:  
-Run and check for any bugs.
+- Run and check for any bugs.  
+ 
+![HtDF Problem](https://github.com/khongminhtn/computer-science-studies/blob/main/core-cs-programming/how-to-code-simple-data//images/HtDF-pratice.png)  
+ 
+Design:
+- Signature: string => string
+- Purpose: pluralize a word
+- Stub: (define (pluralize string) string)
+- Check:
+  1. (check-expect (pluralize burger) burgers)
+  2. (check-expect (pluralize wing) wings)
+- Outline:
+```
+(define (pluralize string)
+  (... string))    where ... means do something
+```
+- Body:
+```
+(define (pluralize string)
+  (append string s))
+```
+- Debug
