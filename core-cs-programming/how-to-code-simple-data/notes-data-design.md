@@ -1,0 +1,66 @@
+# How to Design Data.  
+Data Definition design works much like passing a primitive data to a variable in Python, with indication of the type of the data is being used, a template parameter for which this data is used in a fucntion, and small interpretation of the relationship between the name and the data.  
+ 
+
+Data design is critical in program design as it drive the design of a function. In this section, the goal is:
+- Able to use HtDD recipe to design data definitions for atomic data
+- Able to identify problem domain information that should be represented as simple atomic data, intervals, enumerations, itemizations and mixed data itemizations.
+- Able to use Data Driven Templates recipe to generate templates for functions operating on atomic data.
+- Able to use HtDF recipe to design function operating on atomic data.
+
+### *cond Expressions*  
+cond is a multi-armed conditional, it can have any number of cases at all the same level. Essentially it is a parallel if statements
+**Syntax:**  
+```
+(cond [<question-expression> <answer-expression>]
+      [<question-expression> <answer-expression>]
+      [<question-expression> <answer-expression>]
+      ...
+      [else <answer-expression>])
+```
+Similar to Python's elif conditions.
+
+### *Data Definitions*  
+Data definition is a way to represent a specific information that correlates with a specific data. This clarifies the data being used in a function.
+
+**Examples of Data definition:**  
+Traffic Light color is one of the data below:
+- 0
+- 1
+- 2
+interpreted as, 0 is red, 1 is yellow and 2 is green.  
+ 
+### Atomic Non-Distinct. (HtDD)  
+**HtDD Recipes**
+1. A possible structure definition (not until compound data). 
+2. A type comment that defines a new type of name and describes how to form data of that type.
+3. An interpretation that describes the correspondence between information and data.
+4. One or more examples of the data.
+5. A templates for a 1 argument function operating on data of this type.
+ 
+
+**Example problem**
+![Excercise 1](https://github.com/khongminhtn/computer-science-studies/blob/main/core-cs-programming/how-to-code-simple-data/images/htdd-question1.png)  
+
+Step 2:  
+cityName is String -> tell us the comment and what type of data it contain 
+| Comment (Information) | Type (Data) |
+| ----------- | ---- |
+|Vancouver|"Vancouver"|
+|Boston|"Boston"|
+ 
+Step 3:  
+interpretation. the name of a city.
+
+Step 4:  
+(define CN1 "Boston")
+(define CN2 "Vancouver")
+
+Step 5:
+```
+(define (function-for-city-name cb)
+    (...cn))
+```
+Template rules:
+- Atomic non-distinct: String
+ 
