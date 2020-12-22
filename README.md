@@ -24,9 +24,9 @@ OSSU: https://github.com/ossu/computer-science
 ### Core CS: Programming
 - [x] How to Code: Simple Data | University of British Columbia |  Professor Gregor Kiczales | Platform: eDx.
 - [ ] How to Code: Complex Data | University of British Columbia | Professor Gregor Kiczales | Platform: eDx.
-- [ ] UoW - Programming Languages, Part A (Coursera)
-- [ ] UoW - Programming Languages, Part B (Coursera)
-- [ ] UoW - Programming Languages, Part C (Coursera)
+- [ ] Programming Languages Part A | University of Washington | Professor Dan Grossman |  Platform: Coursera
+- [ ] Programming Languages Part B | University of Washington | Professor Dan Grossman |  Platform: Coursera
+- [ ] Programming Languages Part C | University of Washington | Professor Dan Grossman |  Platform: Coursera
 
 ### Core CS: Maths Electives
 - [ ] MiTx's - 19.01x Single Variable Calculus (edx)
