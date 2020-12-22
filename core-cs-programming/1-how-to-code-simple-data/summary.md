@@ -9,8 +9,8 @@ To my understanding of the course in relation to my knowledge in Python:
 -   Non-atomic Data = Binary and true/false
 -   Interval = Range of numbers
 -   Enumeration = Set/Tuples contain fixed size and distinct items
--   Itemization = List of fixed sized and non distic items (int/float)
+-   Itemization = List of fixed size and non distinct items (int/float)
 -   Compound Data = Dictionary 
--   Self-Referential = List of unknown size (empty list, single item list or single tiem + list) 0-N
+-   Self-Referential = List of unknown size 0-N (empty list, single item list or single item + listOfItems) 
  
-Where the function that operates on self-referential data is a function that consumes a list of unknown size. Then test the *empty list* case then *base* case (first item of list) and case of *atleast 2 or more items*.  
+Where the function that operates on self-referential data is a function that consumes a list of unknown size. Then test the *empty list* case then *base* case (first item of list) with case of *atleast 2 or more items*.  
